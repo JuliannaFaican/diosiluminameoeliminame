@@ -1,12 +1,15 @@
 function login(){
     var user, password 
 
-    user = document.getElementById("usuario").value;
-    password = document.getElementById("contrasena").value;
+    user = document.getElementById("username").value;
+    password = document.getElementById("password").value;
 
-    if(user == "Yongbok" && password == "143"){
-        this.iniciosesio();
-    }else{
-        this.sesionincorrecta();
+    if(user == "yongbok" && password == "143"){
+        alert("iniciaste sesión")
     }
+    else
+    {
+       alert("Usuario no encontrado")
+    }
+
 }

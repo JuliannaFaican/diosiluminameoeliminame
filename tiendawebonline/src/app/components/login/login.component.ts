@@ -12,11 +12,13 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  iniciarsesion(){
-    this.nav.navigate(['home']);
+
+  inicio(){
+    this.nav.navigate(['homeweb']);
   }
-  sesionincorrecta(){
+  sesion(){
     this.nav.navigate(['usernotfoundweb'])
   }
 
+  
 }

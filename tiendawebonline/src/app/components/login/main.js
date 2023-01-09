@@ -5,8 +5,8 @@ function login(){
     password = document.getElementById("contrasena").value;
 
     if(user == "Yongbok" && password == "143"){
-        alert("iniciosesion")
+        this.iniciosesio();
     }else{
-        alert("nahah")
+        this.sesionincorrecta();
     }
 }

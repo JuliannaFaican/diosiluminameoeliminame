@@ -15,6 +15,8 @@ export class LoginComponent implements OnInit {
   iniciarsesion(){
     this.nav.navigate(['home']);
   }
-
+  sesionincorrecta(){
+    this.nav.navigate(['usernotfoundweb'])
+  }
 
 }

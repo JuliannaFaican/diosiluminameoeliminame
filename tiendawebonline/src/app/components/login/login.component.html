@@ -6,11 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    <div>
-        <button (click)="navegacion()">pagina1</button>
+    <div class="containerPrincipal">
+        <div class="form-group">
+            <input id="usuario" type="text" class="form-control" name="username" placeholder="Usuario">
+            <input id="contrasena" type="text" class="form-control" name="password" placeholder="Contrasena">
+            <br>
+            <button id="boton" class="boton" onclick="login()"> Iniciar Sesi&oacute;n</button>
+        </div>
     </div>
-    
+   <script src="main.js"></script>
 </body>
 </html>

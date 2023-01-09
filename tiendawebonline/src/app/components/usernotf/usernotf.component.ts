@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-usernotf',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsernotfComponent implements OnInit {
 
-  constructor() { }
+  constructor(private nav: Router) { }
 
   ngOnInit(): void {
+  }
+  regresar(){
+    this.nav.navigate([''])
   }
 
 }

@@ -8,19 +8,94 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
-<body>
+    <body>
       <header class="main-header">
-        <div class="container">
+        <div class="container container--flex">
       <h1 class="main-header__title">PECASSTORE</h1> 
+      <span class="icon-menu fa-solid fa-bars" id="btn-menu"></span>
+      <nav class="main-nav" id="main-nav">
+        <ul class="menu">
+            <li class="menu__item"><a href="HOME" class="menu__link"></a></li>
+            <li class="menu__item"><a href="ABOUT" class="menu__link"></a></li>
+            <li class="menu__item"><a href="FEATURES" class="menu__link"></a></li>
+            <li class="menu__item"><a href="SHOP" class="menu__link"></a></li>
+            <li class="menu__item"><a href="CONTACT" class="menu__link"></a></li>
+        </ul>
+      </nav>
       <div class="main-header__container">
+        <p class="main-header__txt"> User: Yongbok, Welcome to PECASSTORE!</p>
       <span class="main-header__txt">Need help</span>
-      <p class="main-header__txt">Call 143-0987654321</p>
+      <p class="main-header__txt">Julianna Paola Faicán Cabrera</p>
+      <p class="main-header__txt">09 - 01 - 2023</p>
+      <p class="main-header__txt"> Actividad 6</p>
+      <p class="main-header__txt">Call 143-0987654321 <i class="fa-solid fa-phone"></i></p>
       </div>
       <div class="main-header__container">
         <i class="fa-solid fa-user"></i>
+        <a href="">My cart<i class="fa-solid fa-cart-shopping"></i></a>
+        <input type="search" class="main-header__input" placeholder="Search products"><i class="fa-solid fa-magnifying-glass"></i>
 
       </div>
       </div>
       </header>
-</body>
+      <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="img/zapatos1.jpg" alt=""class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="img/joyeria1.jpg" alt=""class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="img/accesorios/acc1.jpg" alt=""class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="img/ropa1.jpg" alt=""class="slider__img">
+            </div>         
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+      <main class="main">
+        <div class="container">
+            <h2 class="main-title">New Arrivals!</h2>
+            <section class="container-products">
+                <div class="product">
+                    <img src="img/acc2.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Headphones White</h3>
+                        <span class="product__price">$30.00</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img/zapatos1.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Shoes Blue&White Colletion</h3>
+                        <span class="product__price">$45.00</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img/unas2.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Nails Pink Cute</h3>
+                        <span class="product__price">$6.00</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img/joyeria2.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Bracelet</h3>
+                        <span class="product__price">$10.00</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                
+            </section>
+        </div>
+      </main>
+
+    </body>
 </html>
